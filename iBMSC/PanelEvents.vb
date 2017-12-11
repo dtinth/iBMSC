@@ -19,6 +19,19 @@ Partial Public Class MainWindow
         Dim xBaseRedo As UndoRedo.LinkedURCmd = xRedo
         ReDim SelectedNotes(-1)
 
+        If My.Computer.Keyboard.ShiftKeyDown Then
+            Select Case e.KeyCode
+                Case Keys.A : xTargetColumn = niA1 : GoTo MoveToColumn
+                Case Keys.Z : xTargetColumn = niA2 : GoTo MoveToColumn
+                Case Keys.S : xTargetColumn = niA3 : GoTo MoveToColumn
+                Case Keys.X : xTargetColumn = niA4 : GoTo MoveToColumn
+                Case Keys.D : xTargetColumn = niA5 : GoTo MoveToColumn
+                Case Keys.C : xTargetColumn = niA6 : GoTo MoveToColumn
+                Case Keys.F : xTargetColumn = niA7 : GoTo MoveToColumn
+                Case Keys.V : xTargetColumn = niA8 : GoTo MoveToColumn
+            End Select
+        End If
+
         Select Case e.KeyCode
             Case Keys.Up
                 Dim xVPosition As Double = 192 / gDivide
