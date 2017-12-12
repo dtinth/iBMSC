@@ -9,9 +9,13 @@ This repo contains @dtinth’s fork with these extra features…
 
 ### bmson-style “continuation note” (BMS-on)
 
+![image](https://user-images.githubusercontent.com/193136/33845214-4a6ce4ee-ded5-11e7-9a67-488e684b615a.png)
+
 Added ability to set a note as a “continuation” of another note. [See the proposal here](https://github.com/zardoru/iBMSC/pull/11).
 
 ### Shortcuts for note charting
+
+![image](https://user-images.githubusercontent.com/193136/33894560-e079c202-df90-11e7-8539-6f1b1c97e749.gif)
 
 - Select some notes, hold down <kbd>Shift</kbd> and press <kbd>1</kbd>~<kbd>8</kbd> to move the first note and deselect it [(this feature is merged to upstream)](https://github.com/zardoru/iBMSC/pull/12).
 
