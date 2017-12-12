@@ -3,10 +3,22 @@
 µBMSC is a modified version of iBMSC to add features and clean up the iBMSC code, fix bugs and so on.
 See README.md.old for previous README file.
 
-This repo contains @dtinth’s fork with these extra features (some of them are merged to µBMSC):
+## @dtinth’s µBMSC Fork
 
-- [Support for bmson-style “continuation notes” based on BMS-on proposal](https://github.com/zardoru/iBMSC/pull/11).
+This repo contains @dtinth’s fork with these extra features…
 
-- [Note charting shortcuts](https://github.com/zardoru/iBMSC/pull/12) (merged) with [sounds](https://github.com/zardoru/iBMSC/pull/13).
+### bmson-style “continuation note” (BMS-on)
+
+Added ability to set a note as a “continuation” of another note. [See the proposal here](https://github.com/zardoru/iBMSC/pull/11).
+
+### Shortcuts for note charting
+
+- Select some notes, hold down <kbd>Shift</kbd> and press <kbd>1</kbd>~<kbd>8</kbd> to move the first note and deselect it [(this feature is merged to upstream)](https://github.com/zardoru/iBMSC/pull/12).
+
+- You can also use <kbd>Shift</kbd>+<kbd>A</kbd><kbd>Z</kbd><kbd>S</kbd><kbd>X</kbd><kbd>D</kbd><kbd>C</kbd><kbd>F</kbd><kbd>V</kbd>
+
+- [**Demo video**](https://twitter.com/bemusegame/status/940609298173911040).
+
+### Usage
 
 Please download the source code and build yourself. (It should work with Visual Studio 2017 Community.)
